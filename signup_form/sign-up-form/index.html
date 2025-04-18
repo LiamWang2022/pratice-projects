@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="leftPart"> -->
+        <div class="backgroundImageContainer">
+            <div class="iconContainer">
+                <img id="iconImage" src="./images/odin-lined.png" alt="An odin icon on the left background">
+                <p id="iconText">
+                    odin
+                </p>
+            </div>
+            <p id="photoGrapher">Photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">West</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+        </div>
+    <!-- </div> -->
+
+    <div class="formContainer">    
+        <div class="informationArea">
+            <h2>This is not a online service! You know you need something like this in your life to help you realize your deepst dreams.</h2>
+        
+            <h2>You <i>know</i> you want to</h2>
+        </div>
+        <form action="POST">
+            <div class="inputArea">
+                <h2>Let's do this!</h2>
+
+                <div class="inputFlexContainer">
+                    <div class="leftColumn">
+                        <p>
+                            <label for="firstName">
+                                <span>FIRST NAME</span>
+                            </label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </p>
+                        <p>
+                            <label for="email">
+                                <span>EMAIL</span>
+                            </label>
+                            <input type="email" id="email" name="email" required>
+                        </p>
+
+                        <p>
+                            <label for="password">
+                                <span>PASSWORD</span>
+                            </label>
+                            <input type="password" id="password" name="password" required minlength="6">
+                        </p>
+                    </div>
+                    <div class="rightColumn">
+                        <p>
+                            <label for="lastName">
+                                <span>LAST NAME</span>
+                            </label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </p>
+                                            
+                        <p>
+                            <label for="phoneNumber">
+                                <span>PHONE NUMBER</span>
+                            </label>
+                            <input type="text" id="phoneNumber" name="phoneNumber" required>
+                        </p>
+
+                        <p>
+                            <label for="confirmPassword">
+                                <span>CONFIRM PASSWORD</span>
+                            </label>
+                            <input type="password" id="confirmPassword" name="confirmPassword" required minlength="6">
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="buttonArea">
+                <p>
+                    <button type="submit">
+                    Create Account
+                    </button>
+                </p>
+            </div>
+
+            <div>
+                <h2 class="footer">Already have an account? <a href = "index.html">Log in</a></h2>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
